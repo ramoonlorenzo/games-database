@@ -1,0 +1,88 @@
+html {
+  color: var(--color-white);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--gradient-background);
+  background-size: 180% 180%;
+  font-family: var(--font-primary);
+  margin: 0 auto;
+  max-width: 1120px;
+  animation: gradient-animation 10s ease infinite;
+}
+
+.jogos {
+  text-align: center;
+  padding-top: 30px;
+}
+
+@media (orientation: landscape) {
+  .jogos {
+    min-height: calc(100vh);
+  }
+}
+
+.jogos .jogos-titulo {
+  padding: 10px 0;
+  font-size: 45px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.jogos .container-jogos {
+  background: var(--gradient-section);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 15px;
+  max-height: 620px;
+  overflow-y: scroll;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.jogos .container-jogos::-webkit-scrollbar {
+  display: none;
+}
+
+.jogos .container-jogos .jogo {
+  width: 300px;
+  padding: 40px 20px;
+}
+
+.jogos .container-jogos .jogo .jogo-logo {
+  margin-bottom: 10px;
+}
+
+.jogos .container-jogos .jogo .jogo-logo i {
+  font-size: 80px;
+}
+
+.jogos .container-jogos .jogo h3 {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.jogos .container-jogos .jogo p {
+  font-family: var(--font-secondary);
+  font-size: 20px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0%, 50%;
+  }
+  50% {
+    background-position: 100%, 50%;
+  }
+  100% {
+    background-position: 0%, 50%;
+  }
+}
