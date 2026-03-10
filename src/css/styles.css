@@ -1,6 +1,5 @@
 html {
   color: var(--color-white);
-  scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +16,11 @@ body {
   padding-top: 30px;
 }
 
+.jogos .container-jogos .jogo:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
 @media (orientation: landscape) {
   .jogos {
     min-height: calc(100vh);
@@ -25,7 +29,7 @@ body {
 
 .jogos .jogos-titulo {
   padding: 10px 0;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -59,20 +63,18 @@ body {
   margin-bottom: 10px;
 }
 
-.jogos .container-jogos .jogo .jogo-logo i {
+.jogos .container-jogos .jogo .jogo-logo img {
+  width: 50%;
+  height: auto;
   font-size: 80px;
 }
 
-.jogos .container-jogos .jogo h3 {
+.jogos .container-jogos .jogo a h2 {
   font-family: var(--font-secondary);
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-}
-
-.jogos .container-jogos .jogo p {
-  font-family: var(--font-secondary);
-  font-size: 20px;
+  color: var(--color-white);
 }
 
 @keyframes gradient-animation {
