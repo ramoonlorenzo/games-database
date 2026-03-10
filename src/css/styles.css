@@ -2,12 +2,22 @@ html {
   color: var(--color-white);
 }
 
+html.is-transitioning body {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
 body {
   background: var(--gradient-background);
   background-size: 180% 180%;
   font-family: var(--font-primary);
   margin: 0 auto;
   max-width: 1120px;
+  opacity: 1;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
   animation: gradient-animation 10s ease infinite;
 }
 
