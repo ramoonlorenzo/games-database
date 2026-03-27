@@ -1,6 +1,6 @@
 # 🎮 Atividade da AV1 - Games Database
 
-🔗 Link do projeto: [Games Database](https://github.com/ramoonlorenzo/games-database.git)
+🔗 Link do projeto: [Games Database](https://ramoonlorenzo.github.io/games-database/)
 
 ## 📚 Descrição
 
