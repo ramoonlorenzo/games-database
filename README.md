@@ -1,4 +1,6 @@
-# 🎮 Games Database
+# 🎮 Atividade da AV1 - Games Database
+
+🔗 Link do projeto: [Games Database](https://github.com/ramoonlorenzo/games-database.git)
 
 ## 📚 Descrição
 
@@ -6,15 +8,11 @@ Este projeto consiste em um site desenvolvido com HTML, CSS e JavaScript, com o 
 
 O site permite ao usuário navegar entre diferentes páginas, cada uma contendo informações detalhadas sobre um jogo específico.
 
----
-
 ## 🎯 Objetivo da Atividade
 
 - Criar um site sobre um tema específico
 - Utilizar elementos estudados em sala (Ex: elementos de texto, listas, links, imagens, etc.)
 - Desenvolver no mínimo **5 páginas com conteúdos únicos**
-
----
 
 ## 🎨 Funcionalidades
 
@@ -35,8 +33,6 @@ Visão inicial da página principal e organização dos elementos.
 Detalhamento de como cada item é exibido.
 
 ![Wireframe Item](./src/assets/images/games-database-item.png)
-
----
 
 ## 📁 Organização de Pastas
 
@@ -66,15 +62,11 @@ Detalhamento de como cada item é exibido.
 │   └── terraria.html
 ```
 
----
-
 ## ⚙️ Tecnologias Utilizadas
 
 - HTML5 (estrutura semântica)
 - CSS3 (estilização e layout)
 - JavaScript (animações de transição entre páginas)
-
----
 
 ## 👨🏻‍💻 Autor
 
